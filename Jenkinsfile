@@ -7,4 +7,6 @@ pipeline {
                     s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html', bucket:'udacity-project3-jenkins')
              }
           }
-      }    
+      } 
+    }
+}
